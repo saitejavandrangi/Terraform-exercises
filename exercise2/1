@@ -1,0 +1,4 @@
+instance_type = "t3.micro"
+instance_count = "1"
+instance_size = "60"
+ebs_name="ebs_expansion"
