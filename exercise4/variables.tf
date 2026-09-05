@@ -1,0 +1,63 @@
+
+variable "aws_region" {
+  description = "The AWS region to deploy resources into"
+  type        = string
+}
+
+variable "ami_id" {
+  description = "The Amazon Machine Image (AMI) ID for the EC2 instance"
+  type        = string
+}
+
+variable "instance_type" {
+  description = "The size/type of the EC2 instance"
+  type        = string
+}
+
+variable "instance_name" {
+  description = "Value for the Name tag of the EC2 instance"
+  type        = string
+}
+
+
+variable "key_name" {
+  description = "key pair name"
+  type        = string
+}
+
+variable "security_group" {
+  description = "instance security group id "
+  type        = string
+}
+
+variable "bucket_name" {
+  description = "s3 bucket name for connecting instance"
+  type        = string
+}
+variable "type" {
+  description = "storage type for the instance"
+  type        = string
+}
+
+variable "size" {
+  description = "size of the ebs volume to expand the storage of the instance"
+  type        = string
+}
+
+variable "ebs_name" {
+  description = "size of the ebs volume to expand the storage of the instance"
+  type        = string
+}
+variable "ebs_id" {
+  description = "id of the ebs volume"
+  type        = string
+}
+variable "environment" {
+  description = "environment name"
+  type        = string
+}
+variable "availability_zone" {
+  description = "AZ where the EBS volume will be created"
+  type        = string
+}
+
